@@ -80,3 +80,18 @@ This is used inside a **ViGBlock** (Vision-Graph style block) and integrated int
 ```bash
 git clone https://github.com/Gourab111186/GraviGNN.git
 cd GraviGNN
+
+
+### 2) Create an environment
+
+conda create -n gravignn python=3.9 -y
+conda activate gravignn
+pip install -r requirements.txt
+
+## Citation
+@misc{gravignn,
+  title        = {GraviGNN: 3D Gravity Inversion with Graph Neural Networks},
+  author       = {Gourab111186},
+  howpublished = {GitHub repository},
+  url          = {https://github.com/Gourab111186/GraviGNN}
+}
