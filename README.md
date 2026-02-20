@@ -41,6 +41,15 @@ The repo provides:
 - ✅ Robustness studies under Gaussian noise
 - ✅ A complete **field inversion** pipeline using San Nicolas data slices
 
+Here’s the **San Nicolas field inversion result image (the “second image” in the repo)** — the file **`SanNicholasInversion (1).png`**. 
+
+**What you’re seeing in that figure:**
+
+* **(a) Profile lines:** residual gravity map (mGal) with two cross-section lines **A–A′** and **B–B′**
+* **(b) Inversion along A–A′:** recovered density contrast section (g/cm³) vs **Depth** and **Easting**
+* **(c) Inversion along B–B′:** recovered density contrast section (g/cm³) vs **Depth** and **Northing** 
+
+
 ---
 
 ## Key ideas
