@@ -146,49 +146,5 @@ If you find this work useful, please consider giving the repository a
 star.
 
 
-# 📦 Installation & Reproducibility
-
-## 🔧 Steps to Reproduce Results
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Gourab111186/GraviGNN.git
-cd GraviGNN
-
-### 1. Clone the Repository
-```bash
-conda create -n gravignn python=3.9 -y
-conda activate gravignn
-pip install -r requirements.txt
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/Gourab111186/GraviGNN.git
-cd GraviGNN 
----
-
-### 2. Create an environment
-
-conda create -n gravignn python=3.9 -y
-conda activate gravignn
-pip install -r requirements.txt
-
-Here’s the **San Nicolas field inversion result image (the “second image” in the repo)** — the file **`SanNicholasInversion (1).png`**. 
-
-**What you’re seeing in that figure:**
-
-* **(a) Profile lines:** residual gravity map (mGal) with two cross-section lines **A–A′** and **B–B′**
-* **(b) Inversion along A–A′:** recovered density contrast section (g/cm³) vs **Depth** and **Easting**
-* **(c) Inversion along B–B′:** recovered density contrast section (g/cm³) vs **Depth** and **Northing** 
 
 
----
-
-## Citation
-@misc{gravignn,
-  title        = {GraviGNN: 3D Gravity Inversion with Graph Neural Networks},
-  author       = {Gourab111186},
-  howpublished = {GitHub repository},
-  url          = {https://github.com/Gourab111186/GraviGNN}
-}
