@@ -47,13 +47,25 @@ A central component is a **GraphConv** layer that:
 
 ## Steps to Reproduce Results
 
+---
+
+# 📦 Installation & Reproducibility
+
+## 🔧 Steps to Reproduce Results
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Gourab111186/GraviGNN.git
+cd GraviGNN
+
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/Gourab111186/GraviGNN.git
-cd GraviGNN '''
+cd GraviGNN 
+---
 
-
-### 2) Create an environment
+### 2. Create an environment
 
 conda create -n gravignn python=3.9 -y
 conda activate gravignn
