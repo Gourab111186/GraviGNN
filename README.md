@@ -73,9 +73,8 @@ This installs all required dependencies for running GraviGNN.
 
 # 📊 San Nicolas Field Inversion Result
 
-**File:** `SanNicholasInversion (1).png`
 <p align="center">
-  <img src="SanNicholasInversion (1).png" alt="GraviGNN Framework" width="800"/>
+  <img src="SanNicholasInversion.png" alt="GraviGNN Framework" width="800"/>
 </p>
 
 ## 🔍 Figure Description
