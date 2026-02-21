@@ -80,20 +80,6 @@ The figure consists of three panels: (a) Profile Lines: Residual gravity anomaly
 
 ------------------------------------------------------------------------
 
-# 🧠 Method Overview
-
-GraviGNN formulates gravity inversion as a graph learning problem:
-
--   Nodes represent spatial grid locations
--   Edges encode spatial proximity (k-NN graph)
--   Node features correspond to gravity measurements
--   The GNN predicts subsurface density contrasts
-
-This approach enables: - Scalability to large surveys\
-- Robust spatial regularization\
-- Efficient inference
-------------------------------------------------------------------------
-
 # 📚 Citation
 
 ``` bibtex
