@@ -19,17 +19,15 @@ The repo provides:
 
 ## Key ideas
 
-At a high level, GraviGNN mixes:
+At a high level, GraviGNN uses:
 - **CNN-style encoders/decoders** for grid-like gravity maps, and
 - **graph-based feature mixing** using a *kNN graph* built from feature distances.
 
 A central component is a **GraphConv** layer that:
-1. Computes **k-nearest neighbors** using Euclidean distance (`torch.cdist`)
+1. Computes **k-nearest neighbors** using Euclidean distance
 2. Aggregates neighbor features using **elementwise max**
 3. Concatenates original + aggregated features
 4. Applies **multi-head linear projections** (graph “attention-like” heads without explicit attention weights)
-
-This is used inside a **ViGBlock** (Vision-Graph style block) and integrated into a **ViGUNet** (UNet-like architecture augmented with graph mixing).
 
 ---
 ## Repository structure
