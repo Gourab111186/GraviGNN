@@ -9,7 +9,7 @@ This repository has codebase for end-to-end workflows: **training**, **evaluatio
 
 ## Overview
 
-Given gravity anomaly observations (synthetic or real), GraviGNN learns to predict a **subsurface target representation** (e.g., density/ore body mask/voxelized anomaly-to-structure mapping depending on the notebook setup).
+Given gravity anomaly observations (synthetic or real), GraviGNN learns to predict a **subsurface target representation** (e.g., density/ore body mask/voxelized anomaly-to-structure mapping).
 
 The repo provides:
 - ✅ Training notebooks for the core GraviGNN model
