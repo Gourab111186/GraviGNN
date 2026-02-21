@@ -1,7 +1,7 @@
 # GRAVIGNN: Gravity Data Inversion Using Graph Neural Network
 
-GraviGNN is a deep-learning framework for **reproducible 3D gravity inversion** experiments.  
-This repository focuses on end-to-end workflows: **training**, **evaluation**, **noise robustness**, **visualization**, and a **real field-case inversion** (San Nicolas VMS deposit, Mexico).
+GraviGNN is a graph based framework for **3D gravity inversion** experiments.  
+This repository has codebase for end-to-end workflows: **training**, **evaluation**, **noise robustness**, **visualization**, and a **real field-case study** (San Nicolas VMS deposit, Mexico).
 
 <p align="center">
   <img src="GraviGNN-Framework.png" alt="GraviGNN Framework" width="800"/>
