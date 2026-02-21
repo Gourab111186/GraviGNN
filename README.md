@@ -6,32 +6,9 @@ This repository has codebase for end-to-end workflows: **training**, **evaluatio
 <p align="center">
   <img src="GraviGNN-Framework.png" alt="GraviGNN Framework" width="800"/>
 </p>
-
 ---
 
-## Table of Contents
-
-- [What this repo does](#what-this-repo-does)
-- [Key ideas](#key-ideas)
-- [Repository structure](#repository-structure)
-- [Installation](#installation)
-- [Quickstart](#quickstart)
-- [Notebooks walkthrough](#notebooks-walkthrough)
-- [Data format](#data-format)
-- [Model overview](#model-overview)
-- [Training details](#training-details)
-- [Evaluation](#evaluation)
-- [Noise robustness](#noise-robustness)
-- [Field case: San Nicolas inversion](#field-case-san-nicolas-inversion)
-- [Reproducibility notes](#reproducibility-notes)
-- [Troubleshooting](#troubleshooting)
-- [Citation](#citation)
-- [License](#license)
-- [Contact](#contact)
-
----
-
-## What this repo does
+## Overview
 
 Given gravity anomaly observations (synthetic or real), GraviGNN learns to predict a **subsurface target representation** (e.g., density/ore body mask/voxelized anomaly-to-structure mapping depending on the notebook setup).
 
