@@ -45,9 +45,9 @@ A central component is a **GraphConv** layer that:
 
 ---
 
-## Installation
+## Steps to Reproduce Results
 
-### 1) Clone the repository
+### 1. Clone the repository
 ```bash
 git clone https://github.com/Gourab111186/GraviGNN.git
 cd GraviGNN
