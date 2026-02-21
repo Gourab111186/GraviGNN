@@ -76,9 +76,6 @@ This installs all required dependencies for running GraviGNN.
 <p align="center">
   <img src="SanNicholasInversion.png" alt="GraviGNN Framework" width="800"/>
 </p>
-
-## R
-
 The figure consists of three panels: (a) Profile Lines: Residual gravity anomaly map (mGal) along two cross-section lines: **A--A′** and **B--B′**.  (b) Inversion Along A--A′ (c) Inversion Along B--B′. These results demonstrate the ability of GraviGNN to recover meaningful subsurface density structures from real gravity measurements.
 
 ------------------------------------------------------------------------
