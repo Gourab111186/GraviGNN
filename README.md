@@ -113,20 +113,6 @@ GraviGNN formulates gravity inversion as a graph learning problem:
 This approach enables: - Scalability to large surveys\
 - Robust spatial regularization\
 - Efficient inference
-
-------------------------------------------------------------------------
-
-# 📁 Project Structure
-
-    GraviGNN/
-    │── data/
-    │── models/
-    │── utils/
-    │── train.py
-    │── inference.py
-    │── requirements.txt
-    │── README.md
-
 ------------------------------------------------------------------------
 
 # 📚 Citation
