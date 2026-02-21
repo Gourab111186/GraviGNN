@@ -42,11 +42,6 @@ A central component is a **GraphConv** layer that:
 | `GraviGNN-Framework.png` | Framework diagram |
 | `SanNicholasInversion (1).png` | Example field inversion figure/image |
 | `requirements.txt` | Dependencies (pinned versions for reproducibility) |
-
----
-
-## Steps to Reproduce Results
-
 ---
 
 # 📦 Installation & Reproducibility
