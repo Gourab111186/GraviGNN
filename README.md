@@ -17,17 +17,6 @@ The repo provides:
 - ✅ Robustness studies under Gaussian noise
 - ✅ A complete **field inversion** pipeline using San Nicolas data slices
 
-Here’s the **San Nicolas field inversion result image (the “second image” in the repo)** — the file **`SanNicholasInversion (1).png`**. 
-
-**What you’re seeing in that figure:**
-
-* **(a) Profile lines:** residual gravity map (mGal) with two cross-section lines **A–A′** and **B–B′**
-* **(b) Inversion along A–A′:** recovered density contrast section (g/cm³) vs **Depth** and **Easting**
-* **(c) Inversion along B–B′:** recovered density contrast section (g/cm³) vs **Depth** and **Northing** 
-
-
----
-
 ## Key ideas
 
 At a high level, GraviGNN mixes:
@@ -43,7 +32,6 @@ A central component is a **GraphConv** layer that:
 This is used inside a **ViGBlock** (Vision-Graph style block) and integrated into a **ViGUNet** (UNet-like architecture augmented with graph mixing).
 
 ---
-
 ## Repository structure
 
 | File / Notebook | Purpose |
@@ -72,6 +60,17 @@ cd GraviGNN
 conda create -n gravignn python=3.9 -y
 conda activate gravignn
 pip install -r requirements.txt
+
+Here’s the **San Nicolas field inversion result image (the “second image” in the repo)** — the file **`SanNicholasInversion (1).png`**. 
+
+**What you’re seeing in that figure:**
+
+* **(a) Profile lines:** residual gravity map (mGal) with two cross-section lines **A–A′** and **B–B′**
+* **(b) Inversion along A–A′:** recovered density contrast section (g/cm³) vs **Depth** and **Easting**
+* **(c) Inversion along B–B′:** recovered density contrast section (g/cm³) vs **Depth** and **Northing** 
+
+
+---
 
 ## Citation
 @misc{gravignn,
