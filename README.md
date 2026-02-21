@@ -6,7 +6,6 @@ This repository has codebase for end-to-end workflows: **training**, **evaluatio
 <p align="center">
   <img src="GraviGNN-Framework.png" alt="GraviGNN Framework" width="800"/>
 </p>
----
 
 ## Overview
 
